@@ -5,10 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DIVE Process</title>
     <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.3.25/dist/lenis.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header class="site-header">
+      <div class="site-header__identity">
+        <a class="site-header__brand" href="#overview" aria-label="DIVE home">
+          <img src="Images/header/DIVE_logo_white.png" alt="DIVE" />
+        </a>
+        <span class="site-header__divider" aria-hidden="true"></span>
+        <a
+          class="site-header__section-label is-active"
+          href="#process"
+          aria-current="page"
+          >PROCESS</a
+        >
+      </div>
+
+      <nav class="site-header__links" aria-label="Process navigation">
+        <a href="#overview">OVERVIEW</a>
+        <a href="#background">BACKGROUND</a>
+        <a href="#concept">CONCEPT</a>
+        <a href="#persona">PERSONA</a>
+        <a href="#ia">IA</a>
+        <a href="#design">DESIGN</a>
+        <a href="#interaction">INTERACTION</a>
+        <a href="#outcome">OUTCOME</a>
+      </nav>
+
+      <a class="site-header__contact" href="#contact">CONTACT</a>
+    </header>
+
+    <main>
+      <section class="hero" id="process" aria-labelledby="hero-title">
+        <div class="hero__content">
+          <div class="hero__heading">
+            <p class="hero__eyebrow" id="hero-title">PROCESS</p>
+          </div>
+          <div class="hero__main">
+            <div class="hero__logo-box">
+              <img
+                class="hero__logo"
+                src="Images/section-1/DIVE_logo.png"
+                alt="DIVE"
+              />
+            </div>
+            <div class="hero__description-box">
+              <p class="hero__description">
+                DIVE는 문제의 본질을 깊이 파고들어<br />
+                실질적인 해결책을 설계하고 실행합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__scroll" aria-hidden="true">
+          <span>SCROLL</span>
+          <i></i>
+        </div>
+      </section>
+
+      <section class="overview" id="overview" aria-labelledby="overview-title">
+        <div class="overview__content">
+          <div class="overview__index" aria-hidden="true">
+            <span>01</span>
+            <i></i>
+          </div>
+
+          <h2 class="overview__title" id="overview-title">
+            <span>OVER</span><strong>VIEW</strong>
+          </h2>
+
+          <p class="overview__lead">
+            DIVE는 UI/UX 디자인과 웹 퍼블리싱을 배우고<br />
+            실무에 적용하고자 하는 사람들을 위한<br />
+            정보 탐색 플랫폼입니다.
+          </p>
+
+          <p class="overview__body">
+            흩어져 있는 정보를 한 곳에 모아,<br />
+            누구나 쉽게 탐색하고 필요한 지식을 빠르게 찾을 수 있도록<br />
+            설계한 정보의 바다입니다.
+          </p>
+        </div>
+      </section>
+    </main>
+
     <!-- js -->
+    <script src="https://unpkg.com/lenis@1.3.25/dist/lenis.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
