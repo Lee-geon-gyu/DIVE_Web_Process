@@ -32,6 +32,18 @@ applyAos(".design__intro", "fade-right", 60);
 applyAos(".design__colors", "fade-up", 160);
 applyAos(".design__typography", "fade-up", 100);
 applyAos(".design__components", "fade-up", 200);
+applyAos(".outcome__copy", "fade-right", 80);
+applyAos(".outcome__mockup", "fade-left", 160);
+applyAos(".site-footer__message", "fade-right", 80);
+applyAos(".site-footer__brand-column", "fade-up", 100);
+applyAos(".site-footer__contact-column", "fade-up", 180);
+applyAos(
+  ".site-footer__navigation h3, .site-footer__navigation > div",
+  "fade-up",
+  260,
+  50,
+);
+applyAos(".site-footer__slogan", "zoom-in", 340);
 
 if (window.AOS) {
   AOS.init({
